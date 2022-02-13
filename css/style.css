@@ -1,0 +1,188 @@
+
+
+@font-face {
+    font-family: 'determination_sansregular';
+    src: url('../font/DeterminationSans/dtm-sans-webfont.woff2') format('woff2'),
+         url('../font/DeterminationSans/dtm-sans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'monster_friend_foreregular';
+    src: url('../font/MonsterFriend/monsterfriendfore-webfont.woff2') format('woff2'),
+         url('../font/MonsterFriend/monsterfriendfore-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sans';
+    src: url('../font/sans/undertalesans-webfont.woff2') format('woff2'),
+         url('../font/sans/undertalesans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dotum';
+    src: url('../font/DotumChe/DotumChe.woff2') format('woff2'),
+         url('../font/DotumChe/DotumChe.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Block text selection*/
+* {
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer */
+   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+  cursor: url('../img/Spr_heartred_center_0.png'), auto;
+}
+
+
+/*Start*/
+body{background: black !important;overflow: hidden !important; min-width: 1920px!important;min-height: 1080px!important;max-width: 1920px!important;max-height: 1080px!important}
+
+#splashscreen{font-family: 'monster_friend_foreregular';font-size: 8.0em;color: white;text-align: center;margin-top: 90px}
+
+#wait{font-family: 'monster_friend_foreregular';font-size: 7.0em;color: white;z-index:99999}
+#wait b{font-weight: normal}
+
+#mute{opacity: 0.1;width: 3%;}
+#mute:hover{opacity: 1;}
+
+#sfx{font-size: 3.0em;color: white;opacity: 0.1;width: 3%;font-family: 'determination_sansregular';}
+#sfx:hover{opacity: 1;}
+
+#up,#down{font-size: 5.0em;color: white;opacity: 0.1;}
+#up:hover,#down:hover{opacity: 1;}
+
+
+
+#play {font-family: 'monster_friend_foreregular';font-size: 8.0em;text-align: center;color: white;}
+#play:hover{color: black;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;}
+#allinea{text-align: center;}
+
+#loading{font-family: 'monster_friend_foreregular';font-size: 8.0em;color: white;}
+#dot{float: right}
+
+
+/*Textbox*/
+.box{width: 960.3px;height: 257.4px;font-family: 'determination_sansregular';background: url(../img/text/textbox.png);color: white;background-size: cover;font-size: 1.5em;padding-top: 38.3906px}
+#port{width: 210.06px;height: 156.33px;background-image: url(../img/ruins/torielhead.png);}
+
+/*Fall*/
+.flower{width: 192px; height:118.47px}
+#prot{width: 150.856px;height: 265px;background-image: url(../img/ruins/frisk.png);}
+
+/*Ruin*/
+#prot2{width: 168px; height: 342px;  background-image: url(../img/ruins/toriel.png);}
+#ruin{background: url(../img/ruins/Ruins.png);background-size: cover;background-position:left;width: 3260px;height: 1020px}
+
+/*Past*/
+#past{width:960px;height:525.36px;}
+
+/*Places*/
+	/*Lab*/
+		#lab{background: url(../img/alphyslab/AlphysLab.png);background-size: cover;background-position:left;width: 4695px;height: 2355px}
+		#sci{width: 269.895px; height: 288.509px;background-image: url(../img/alphyslab/alphy.png);}
+		#robot{width: 506.19px; height: 358.214px; background-image: url(../img/alphyslab/mettaton-01.png);}
+	/*Mountain*/
+		#mountain{background: url(../img/waterfall/Waterfall.png);background-size: cover;background-position:left;width: 2240px;height: 4480px}
+		#soldier{width: 350.235px ; height: 530.356px;background: url(../img/waterfall/undyne.png);}
+	/*Throne*/
+		#throne{background: url(../img/throneroom/throneroom.png);background-size: cover;background-position:left;width: 2616px;height: 4856px}
+		#chair{width:10%;height:auto;}
+		#king{width:20%;height:auto;}
+
+/*Friend or foe*/
+	#friend{width:192px ;height:505.03px;}
+	#foe{width:384px ;height:578.02px;}
+
+/*Fight*/
+	#attack{width:960px;height:205.7px;}
+	#attackbar{width:19.19px;height:190.39px;}
+	#fight,#spare{width:288px;height:109.95px}
+	#man{width:288px;height:311.5px;}
+	#slash, #slash2{width:50.71px;height:187.723px;background-image: url(../img/fight/slash.png)}
+
+/*Sans*/
+	#sans{width: 345.59px;height:452.41px}
+	#spcb{width:548px;height: 456px; background-image: url(../img/text/speach2.png);background-size: contain;background-repeat: no-repeat;padding: 68px 22px 144px 84px;color: black;font-family: 'sans';font-size: 2.0em;}
+    #cover{width:548px;height: 456px;z-index: 99999;}
+	#blinkclick2{font-family: 'sans';font-size: 2.5em}
+    #toriel{width: 288px;height:408px}
+
+/*End*/
+#title{width:1824px;height:182.61px;}
+#flowey{width: 348.385px;height: 364.957px;background-image: url(../img/flowey.png);}
+#floweysp{font-family: 'dotum';color: white;font-size: 1.5em;}
+#end{font-family: 'determination_sansregular';color: white;font-size: 4.5em;text-align: center}
+ul li{float: left;margin-right:100px;list-style: none}
+ul li:nth-of-type(1){margin-left: 500px}
+ul li a img{width: 125px;height: 125px}
+#end a {font-size: 2.8em;color: black;text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;}
+#end a:hover{color: white;}
+#white{width: 6000px;height: 6000px;z-index:9999;background:white}
+
+
+
+
+
+
+
+
+
+/*Animation*/
+.vanishOut {
+  -webkit-animation-name: vanishOut;
+          animation-name: vanishOut; 
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both; 
+}
+
+@-webkit-keyframes vanishOut {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px); }
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(2, 2);
+            transform: scale(2, 2);
+    -webkit-filter: blur(60px);
+            filter: blur(60px); } }
+
+@keyframes vanishOut {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px); }
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(2, 2);
+            transform: scale(2, 2);
+    -webkit-filter: blur(60px);
+            filter: blur(60px); } }
